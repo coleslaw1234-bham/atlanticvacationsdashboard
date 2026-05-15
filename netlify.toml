@@ -1,0 +1,22 @@
+[build]
+  functions = "functions"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+
+[[redirects]]
+  from = "/"
+  to   = "/indexav.html"
+  status = 200
+
+[[redirects]]
+  from = "/topline"
+  to   = "/toplineav.html"
+  status = 200
+
+[[redirects]]
+  from = "/underperformers"
+  to   = "/underperformersav.html"
+  status = 200
